@@ -58,3 +58,7 @@ m7.actors << [a20, a21, a22, a10]
 m8.actors << [a20, a9, a23, a24]
 m9.actors << [a5, a9, a29, a30]
 m10.actors << [a31, a27, a28, a2]
+
+arlos = User.create(first_name: 'Carlos', last_name: 'Bueno', email: 'carlos@email.com', password: 'Carlos1', password_confirmation: 'Carlos1')
+freida = User.create(first_name: 'Frieda', last_name: 'Bueno', email: 'freida@email.com', password: 'Freida1', password_confirmation: 'Freida1')
+julian = User.create(first_name: 'Julian', last_name: 'Bueno', email: 'julian@email.com', password: 'Julian1', password_confirmation: 'Julian1')
